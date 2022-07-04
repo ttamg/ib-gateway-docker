@@ -28,7 +28,7 @@ jobs:
       - name: Push image
         run: |
           IMAGE_NAME=ib-gateway
-          IMAGE_ID=waytrade/$IMAGE_NAME
+          IMAGE_ID=ttamg76/$IMAGE_NAME
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
           # Strip git ref prefix from version
